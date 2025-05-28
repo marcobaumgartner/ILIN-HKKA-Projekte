@@ -98,3 +98,4 @@ if datei:
 
     csv_export = df.to_csv(index=False)
     st.download_button("📄 Original CSV herunterladen", csv_export, file_name="daten.csv")
+
